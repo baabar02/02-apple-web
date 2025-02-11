@@ -1,0 +1,335 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 390px) {
+}
+.overlay {
+  width: 100%;
+  border: 1px solid black;
+}
+.frame-45 {
+  width: 390px;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  /* position: relative; */
+  background-color: #f5f5f7;
+}
+.item {
+  display: flex;
+  justify-content: center;
+  width: 48px;
+  height: 49px;
+}
+.button--apple {
+  width: 48px;
+  height: 49px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.item-2 {
+  display: flex;
+  margin-left: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+.button--search {
+  width: 48px;
+  height: 49px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.button--shopping-bag {
+  width: 48px;
+  height: 49px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.button--menu {
+  width: 48px;
+  height: 49px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.container {
+  width: 390px;
+  height: 73px;
+  display: flex;
+  text-align: center;
+  margin-top: 18px;
+  font-size: 14px;
+  padding-left: 31px;
+  padding-right: 31px;
+}
+.background_1 {
+  width: 390px;
+  height: 500px;
+  border: 1px solid black;
+  margin-top: 12px;
+  background-image: url(./images2/Figure.png);
+}
+.frame-24 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 241px;
+  height: 114px;
+  margin-top: 350px;
+  margin-left: 75px;
+  margin-right: 75px;
+  align-items: center;
+  /* border: 1px solid white; */
+}
+.p-2 {
+  color: white;
+  font-size: 30px;
+  /* align-self: center; */
+}
+.p-3 {
+  color: white;
+  font-size: 18px;
+}
+.link {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  gap: 10px;
+}
+.button--learn {
+  width: 107px;
+  height: 36px;
+  border-radius: 20px;
+  background-color: #2997ff;
+  border: 1px solid #2997ff;
+  color: white;
+  cursor: pointer;
+}
+.button--buy {
+  width: 66px;
+  height: 36px;
+  border-radius: 20px;
+  border: 1px solid #2997ff;
+  background: none;
+  color: #2997ff;
+  cursor: pointer;
+}
+.background_2 {
+  width: 390px;
+  height: 500px;
+  border: 1px solid green;
+  margin-top: 12px;
+  background-image: url(./images2/Figure2.png);
+}
+.frame-24-1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 241px;
+  height: 114px;
+  margin-top: 36px;
+  margin-left: 75px;
+  margin-right: 75px;
+  align-items: center;
+}
+.background_3 {
+  width: 390px;
+  height: 500px;
+  border: 1px solid green;
+  margin-top: 12px;
+  background-image: url(./images2/Figure3.png);
+}
+.frame-27 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 390px;
+  height: 131px;
+  margin-top: 30px;
+  align-items: center;
+  gap: 16px;
+}
+.p-6 {
+  margin-top: 270px;
+  font-family: sans-serif;
+  background-image: linear-gradient(43deg, #4158d0, #c850c0 46%, #ffcc70 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.background_4 {
+  width: 390px;
+  height: 500px;
+  border: 1px solid green;
+  margin-top: 12px;
+  background-image: url(./images2/Figure4.png);
+}
+.frame-27-1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 241px;
+  height: 109px;
+  margin-top: 310px;
+  margin-left: 75px;
+  align-items: center;
+  gap: 16px;
+}
+.p-7 {
+  font-size: 36px;
+  color: white;
+}
+.p-8 {
+  font-size: 18px;
+  color: white;
+  align-self: center;
+}
+.background_5 {
+  width: 390px;
+  height: 500px;
+  border: 1px solid green;
+  margin-top: 12px;
+  background-image: url(./Figure\ 5.png);
+}
+.frame-6 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 235px;
+  height: 135px;
+  margin-top: 35px;
+  margin-left: 75px;
+  align-items: center;
+  gap: 16px;
+}
+
+.p-9 {
+  font-size: 28px;
+  /* justify-content: space-between; */
+}
+.p-10 {
+  font-size: 13px;
+}
+.background_6 {
+  width: 390px;
+  height: 500px;
+  border: 1px solid green;
+  margin-top: 12px;
+  background-image: url(./Figure\ 6.png);
+}
+.frame-21 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 257px;
+  height: 115px;
+  margin-top: 35px;
+  margin-left: 75px;
+  align-items: center;
+}
+.background_7 {
+  width: 390px;
+  height: 500px;
+  border: 1px solid green;
+  margin-top: 12px;
+  background-image: url(./Figure\ 7.png);
+}
+.frame-25 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 257px;
+  height: 115px;
+  margin-top: 35px;
+  margin-left: 75px;
+  align-items: center;
+  gap: 12px;
+}
+.p-14 {
+  font-size: 30px;
+  text-align: center;
+}
+.p-15 {
+  font-size: 18px;
+  text-align: center;
+}
+.background_8 {
+  width: 390px;
+  height: 500px;
+  border: 1px solid green;
+  margin-top: 12px;
+  background-image: url(./Figure\ 9.png);
+}
+.frame-23 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 314px;
+  height: 152px;
+  margin-top: 310px;
+  margin-left: 38px;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.p-16 {
+  font-size: 30px;
+  text-align: center;
+}
+.p-17 {
+  font-size: 18px;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.background_9 {
+  width: 390px;
+  height: 500px;
+  border: 1px solid green;
+  margin-top: 12px;
+  background-image: url(./Figure\ 10.png);
+}
+.frame-7 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 314px;
+  height: 152px;
+  margin-top: 35px;
+  margin-left: 38px;
+  align-items: center;
+  gap: 12px;
+}
+.frame-7__sub {
+  gap: 10px;
+}
+.p-18 {
+  font-size: 30px;
+}
+.p-19 {
+  font-size: 18px;
+  text-align: center;
+}
+.background_10 {
+  width: 390px;
+  height: 500px;
+  border: 1px solid green;
+  margin-top: 12px;
+  background-image: url();
+  justify-items: flex-start;
+  overflow-x: scroll;
+}
+.frame-44 {
+  display: flex;
+  gap: 10px;
+  justify-items: flex-start;
+  margin-bottom: 30px;
+}
+.scroll {
+  overflow-x: scroll;
+  display: flex;
+}
