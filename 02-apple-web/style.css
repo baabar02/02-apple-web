@@ -235,6 +235,10 @@
   align-self: center;
   text-align: center;
 }
+  .frame-28 {
+    display: none;
+  }
+
 .background_5 {
   display: flex;
   width: 100%;
@@ -265,6 +269,10 @@
 .p-10 {
   font-size: 13px;
 }
+
+.frame-29 {
+  display: none;
+}
 .background_6 {
   display: flex;
   width: 100%;
@@ -288,6 +296,9 @@
   gap: 12px;
   justify-content: center;
   align-items: center;
+}
+.frame-30 {
+  display: none;
 }
 
 .background_7 {
@@ -324,6 +335,9 @@
   font-size: 18px;
   text-align: center;
 }
+.frame-31 {
+  display: none;
+}
 .background_8 {
   display: flex;
   width: 100%;
@@ -358,6 +372,9 @@
   text-align: center;
   padding-left: 30px;
   padding-right: 30px;
+}
+.frame-32 {
+  display: none;
 }
 .background_9 {
   width: 100%;
@@ -560,6 +577,10 @@
   margin-right: 15px;
   margin-top: 12px;
 }
+.frame-33 {
+  display: none;
+}
+ 
 
 @media only screen and (min-width: 768px) {
   .container {
@@ -667,6 +688,12 @@
   }
   .p-6 {
     font-size: 24px;
+  }
+  .frame-28 {
+    display: none;
+  }
+  .frame-29 {
+    display: none;
   }
 
   .background_10 {
@@ -802,6 +829,18 @@
     display: flex;
     padding-top: 10px;
   }
+  .frame-30 {
+    display: none;
+  }
+  .frame-31 {
+    display: none;
+  }
+  .frame-32 {
+    display: none;
+  }
+  .frame-33 {
+    display: none;
+  }
 }
 @media only screen and (min-width: 1120px) {
   
@@ -933,7 +972,7 @@
       
     }
     .frame-27 {
-      visibility: hidden;
+      display:none;
       width: 5px;
       margin-left: 10px;
     }
@@ -999,11 +1038,193 @@
       text-align: center;
     }
    .background_4 {
+    display: flex;
+    height: 580px;
+    width: 48%;
     background-image:url(./images/image.pad2.png) ;
+    justify-content: center;
+    align-items: center;
 
    }
-
-      
-  
+   .frame-27-1 {
+    display: none;
+   }
+   .frame-28 {
+    display: flex;
+    flex-direction: column;
+    height: 162px; 
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
   }
+  .p-27 {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    
+  }
+  
+  .p-30 {
+    display: flex;
+    margin-top: 300px;
+    font-size: 24px;
+    font-family: sans-serif;
+    background-image: linear-gradient(43deg, #4158d0, #c850c0 46%, #ffcc70 100%);
+    background-clip: text;
+    color: transparent;
+  }
+  .background_5 {
+    display: flex;
+    height: 580px;
+    width: 48%;
+    background-image:url(./images/airpods.pro2.png) ;
+    background-size: cover ;
+    justify-content: center;
+    align-items: center;
 
+  }
+   .frame-6 {
+    display: none;
+   }
+  .frame-29 {
+    display: flex;
+    flex-direction: column;
+    height: 162px; 
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+  }
+  .p-31 {
+    font-size: 36px;
+    color: white;
+  }  
+  .p-32 {
+    font-size: 18px;
+    color: white;
+  }
+  .background_6 {
+    display: flex;
+    height: 580px;
+    width: 48%;
+    background-image:url(./images/watch.4.png) ;
+    background-size: cover ;
+    justify-content: center;
+    align-items: center;
+  }
+  .frame-21 {
+    display: none;
+  }
+  .frame-30 {
+    display: flex;
+    flex-direction: column;
+    height: 162px; 
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 300px;
+  }
+  .p-33 {
+    font-size: 32px;
+    gap: 8px;
+    margin-top: -10px;
+  }
+  .p-34 {
+    font-size: 15px;
+  }
+  .p-35 {
+    font-size: 18px;
+  }
+  .background_7 {
+    display: flex;
+    height: 580px;
+    width: 48%;
+    background-image:url(./images/air.4.png) ;
+    background-size: cover ;
+    justify-content: center;
+    align-items: center;
+  }
+  .frame-25 {
+    display: none;
+  }
+  .frame-31 {
+    display: flex;
+    flex-direction: column;
+    height: 162px; 
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 340px;
+  }
+  .p-36 {
+    font-size: 36px;
+  }
+  .p-37 {
+    font-size: 18px;
+  }
+  .background_8 {
+    display: flex;
+    height: 580px;
+    width: 48%;
+    background-image:url(./images/trade.in4.png) ;
+    background-size: cover ;
+    justify-content: center;
+    align-items: center;
+  }
+  .frame-23 {
+    display: none;
+  }
+  .frame-32 {
+    display: flex;
+    flex-direction: column;
+    height: 162px; 
+    width: 322px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 340px;
+  }
+  .p-38 {
+    font-size: 36px;
+    gap: 8px;
+  }
+  .p-39 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .background_9 {
+    display: flex;
+    height: 580px;
+    width: 48%;
+    background-image:url(./images/card.3.png) ;
+    background-size: cover ;
+    justify-content: center;
+    align-items: center;
+  }
+  .frame-7 {
+    display: none;
+  }
+  .frame-33 {
+    display: flex;
+    flex-direction: column;
+    height: 162px; 
+    width: 340px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 340px;
+  }
+  .p-40 {
+    font-size: 36px;
+   
+  }
+  .p-41 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .link-11 {
+    gap: 10px;
+  }
+   }   
+  
+  
