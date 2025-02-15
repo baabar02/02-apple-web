@@ -424,19 +424,41 @@
 .background_10 {
   width: 100%;
   height: 500px;
-  /* border: 1px solid green; */
   margin-top: 12px;
   background-image: url();
   justify-items: flex-start;
-  overflow-x: scroll;
-  overflow-y: hidden;
+  /* overflow-x: scroll; */
+  
 }
 .scroll {
-  gap: 10px;
+  display:flex ;
   justify-items: flex-start;
   background-size: contain;
   display: flex;
   gap: 10px;
+  animation-name: move;
+  animation-duration: 3s linear ;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(-300px);
+  }
+  to {
+    transform: translateX(0);
+
+  }
+}
+
+.scroll {
+  animation-name: move;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  animation-direction: both;
+
+
 }
 .frame-44 {
   display: flex;
@@ -444,6 +466,8 @@
   height: 495px;
   border: 1px solid green;
 }
+
+
 .photo-1 {
   background-image: url(./Link9.png);
   background-color: #ffcc70;
@@ -453,6 +477,7 @@
   height: 495px;
   width: 274px;
 }
+
 .button--stream {
   opacity: 0;
   width: 123px;
@@ -474,47 +499,91 @@
 }
 .photo-3 {
   background-image: url(./Link11.png);
-  /* background-color: #ffcc70; */
+  background-color: #ffcc70;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 495px;
+  width: 274px;
+}
+.photo-4 {
+  background-image: url(./Link11.png);
+  background-color: #ffcc70;
   background-repeat: no-repeat;
   background-size: contain;
   height: 495px;
   width: 274px;
 }
 
-.tab {
+.container-tab {
   display: flex;
   justify-content: center;
 }
+
 .tablist {
   display: flex;
-  height: 20px;
-  width: 225px;
-  /* border: 1px solid green; */
+  width: 300px;
+  margin-top: 8px;
   justify-content: center;
-  gap: 10px;
   align-items: center;
-  color: rgb(74, 73, 73);
   background-position: center;
+  animation-name: bg;
+  animation-duration: 2s linear infinite;
+  
 }
+@keyframes bg {
+  from {
+  background-color: rgb(74, 73, 73);
+  }
+  to {
+    background-color: aqua;
+  }
+}
+.tab {
+  height: 8px;
+  width: 8px;
+  background-color: rgb(74, 73, 73);
+  border-radius: 100%;
+  margin-left: 20px;
+  animation-name: bg;
+  animation-duration: 2s linear infinite;
+  
+  
+}
+
+.tab-1 bg { 
+  animation-name: colorchange;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  }
+
 
 .background_11 {
   display: flex;
   width: 100%;
   height: 216px;
-  /* border: 1px solid green; */
   margin-top: 12px;
   background-image: url();
   gap: 10px;
-  /* overflow-x: scroll; */
-  /* overflow-y: hidden; */
-  /* background-color: #2997ff; */
+  overflow-x: scroll;
+  overflow-y: none;
   flex-direction: column;
 }
 
+/* @keyframes move-2 {
+  from { 
+  transform: translateX(-100px);  
+}
+  to {
+  transform: translateX(0);  
+}
+}
+.frame-video {
+  animation: move-2 3s both 1s infinite ease-in-out alternate-reverse;
+} */
 .frame-video {
   display: flex;
   height: 160px;
-  /* border: 1px solid green; */
   background-size: contain;
   justify-items: center;
   gap: 10px;
@@ -525,18 +594,20 @@
   flex-direction: column;
   width: 238px;
   height: 160px;
-  border: 1px solid green;
+
 }
 .video-1 {
-  /* width: 238px; */
+  opacity: 80%;
   height: 134px;
-  /* border: 1px solid green; */
   background-image: url(./images/video1.png);
   background-repeat: no-repeat;
   background-color: #6529CF;
-  /* background-size: contain; */
   justify-items: right;
   gap: 10px;
+}
+.video-1:hover {
+  opacity: 100%;
+ 
 }
 .p-20 {
   justify-content: flex-start;
@@ -551,15 +622,18 @@
   border: 1px solid green;
 }
 .video-2 {
+  opacity: 80%;
   width: 238px;
   height: 134px;
-  /* border: 1px solid green; */
   background-image: url(./images/v-2.jpg);
-  /* background-size: cover; */
   background-repeat: no-repeat;
   background-size: contain;
   justify-items: right;
   gap: 10px;
+}
+.video-2:hover {
+  opacity: 100%;
+
 }
 .la {
   display: flex;
@@ -576,6 +650,7 @@
   cursor: pointer;
   margin-right: 15px;
   margin-top: 12px;
+  background-position: center;
 }
 .frame-33 {
   display: none;
@@ -703,8 +778,8 @@
     margin-top: 12px;
     background-image: url();
     justify-items: flex-start;
-    overflow-x: scroll;
-    /* background-color: #2997ff; */
+    /* overflow-x: scroll; */
+   
   }
   .scroll {
     height: 368px;
@@ -766,7 +841,6 @@
     display: flex;
     width: 100%;
     height: 262px;
-    /* border: 1px solid green; */
     margin-top: 12px;
     background-image: url();
     gap: 10px;
@@ -780,7 +854,7 @@
     flex-direction: column;
     width: 286px;
     height: 194px;
-    /* border: 1px solid green; */
+
   }
   .video-1 {
     width: 286px;
@@ -789,6 +863,7 @@
     background-image: url();
     background-color: #6529CF;
   }
+
   .play {
     flex-direction: column;
     justify-items: right;
