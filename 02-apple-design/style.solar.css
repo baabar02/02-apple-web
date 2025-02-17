@@ -1,72 +1,122 @@
- body {
-    margin: 0%;
-    height: 100vh;
-    padding: 0%;
-    display: flex;
-    justify-content: center;
-    background-color:rgb(64, 63, 63);
-    overflow: hidden;
+body {
+  margin: 0%;
+  /* height: calc(100vh-50px); */
+  padding: 0%;
+  background-color: rgb(209, 204, 204);
+  flex-direction: column;
 }
 .container {
-    font-size: 10px;
-    width: 40em;
-    height: 40em;
-    position: relative;
+  font-size: 10px;
+  width: 800px;
+  height: 800px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 .sun {
-    position: absolute;
-    top: 15em;
-    left: 15em;
-    width: 10em;
-    height: 10em;
-    background-color: yellow;
-    border-radius: 50%;
-    box-shadow: 0 0 3em white;
+  position: absolute;
+  top: 150px;
+  left: 150px;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border-radius: 50%;
+  box-shadow: 0 0 30px white;
+  align-self: center;
 }
-.earth, .moon {
-    position: absolute;
-    border-style: solid;
-    border-color: white transparent transparent transparent;
-    border-width: 0.1em 0.1em 0 0;
-    border-radius: 47%;
+.earth,
+.moon {
+  position: absolute;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+  border-width: 0.1em 0.1em 0 0;
+  border-radius: 47%;
 }
 @keyframes orbit {
-    to {
-        transform: rotate(360deg);
-    }
+  to {
+    transform: rotate(360deg);
+  }
 }
 .earth {
-    top: 5em ;
-    left: 5em;
-    width: 30em;
-    height: 30em;
-    animation: orbit 36.5s linear infinite;
+  top: 50px;
+  left: 50px;
+  width: 300px;
+  height: 300px;
+  animation: orbit 36.5s linear infinite;
 }
 .moon {
-    top: 0;
-    left: 0;
-    width: 8em;
-    height: 8em;
-    /* background-color: aqua; */
-    animation: orbit 2.7s linear infinite;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  /* background-color: aqua; */
+  animation: orbit 2.7s linear infinite;
 }
 .earth::before,
 .moon::before {
-    content: ;
-    position: absolute;
-    border-radius: 50%;
+  content: ;
+  position: absolute;
+  border-radius: 50%;
 }
 .earth::before {
-    top: 2.8em;
-    right: 2.8em;
-    width: 3em;
-    height: 3em;
-    background-color: aqua;
+  top: 28px;
+  right: 28px;
+  width: 30px;
+  height: 30px;
+  background-color: aqua;
+  border: 1px solid black;
 }
 .moon::before {
-    top: 0.8em;
-    right: 0.2em;
-    width: 1.2em;
-    height: 1.2em;
-    background-color: silver;
+  top: 80px;
+  right: 20px;
+  width: 12px;
+  height: 12px;
+  background-color: silver;
+}
+
+.card-container {
+  margin-left: 200px;
+  height: 400px;
+  width: 500px;
+  background-color: yellow;
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.slider {
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+  gap: 10px;
+  /* overflow: hidden; */
+  /* scroll-snap-type: x mandatory; */
+  scroll-snap-align: start;
+  animation: slide 8s linear infinite;
+}
+.slider-item {
+  /* width: 100%; */
+  /* flex-grow: ;
+  flex-basis: ; */
+  /* flex-shrink: 0; */
+  flex: 0 0 60%;
+  height: 100%;
+  background-color: aquamarine;
+}
+.slider-item:hover {
+  animation-play-state: paused;
+  cursor: pointer;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-300%);
+  }
 }

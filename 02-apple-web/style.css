@@ -24,7 +24,7 @@
   font-size: 1px;
   background-size: contain;
   visibility: hidden;
-} 
+}
 .item {
   display: flex;
   justify-content: center;
@@ -160,7 +160,6 @@
   align-items: center;
 }
 
-
 .background_3 {
   display: flex;
   width: 100%;
@@ -235,9 +234,9 @@
   align-self: center;
   text-align: center;
 }
-  .frame-28 {
-    display: none;
-  }
+.frame-28 {
+  display: none;
+}
 
 .background_5 {
   display: flex;
@@ -428,16 +427,15 @@
   background-image: url();
   justify-items: flex-start;
   /* overflow-x: scroll; */
-  
 }
 .scroll {
-  display:flex ;
+  display: flex;
   justify-items: flex-start;
   background-size: contain;
   display: flex;
   gap: 10px;
   animation-name: move;
-  animation-duration: 3s linear ;
+  animation-duration: 3s linear;
 }
 
 @keyframes move {
@@ -446,7 +444,6 @@
   }
   to {
     transform: translateX(0);
-
   }
 }
 
@@ -457,8 +454,6 @@
   animation-iteration-count: infinite;
   animation-delay: 1s;
   animation-direction: both;
-
-
 }
 .frame-44 {
   display: flex;
@@ -466,7 +461,6 @@
   height: 495px;
   border: 1px solid green;
 }
-
 
 .photo-1 {
   background-image: url(./Link9.png);
@@ -528,11 +522,10 @@
   background-position: center;
   animation-name: bg;
   animation-duration: 2s linear infinite;
-  
 }
 @keyframes bg {
   from {
-  background-color: rgb(74, 73, 73);
+    background-color: rgb(74, 73, 73);
   }
   to {
     background-color: aqua;
@@ -546,17 +539,14 @@
   margin-left: 20px;
   animation-name: bg;
   animation-duration: 2s linear infinite;
-  
-  
 }
 
-.tab-1 bg { 
+.tab-1 bg {
   animation-name: colorchange;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-delay: 1s;
-  }
-
+}
 
 .background_11 {
   display: flex;
@@ -594,20 +584,18 @@
   flex-direction: column;
   width: 238px;
   height: 160px;
-
 }
 .video-1 {
   opacity: 80%;
   height: 134px;
   background-image: url(./images/video1.png);
   background-repeat: no-repeat;
-  background-color: #6529CF;
+  background-color: #6529cf;
   justify-items: right;
   gap: 10px;
 }
 .video-1:hover {
   opacity: 100%;
- 
 }
 .p-20 {
   justify-content: flex-start;
@@ -633,7 +621,6 @@
 }
 .video-2:hover {
   opacity: 100%;
-
 }
 .la {
   display: flex;
@@ -655,7 +642,6 @@
 .frame-33 {
   display: none;
 }
- 
 
 @media only screen and (min-width: 768px) {
   .container {
@@ -670,9 +656,9 @@
   }
   .home {
     display: flex;
-    visibility: hidden;  
+    visibility: hidden;
   }
-  
+
   .background_1 {
     display: flex;
     width: 100%;
@@ -746,7 +732,7 @@
     border: 1px solid green;
     background-image: url(./images/Figure3.png);
     background-color: #2997ff;
-  } 
+  }
 
   /* .background_3 {
     display: flex;
@@ -779,7 +765,6 @@
     background-image: url();
     justify-items: flex-start;
     /* overflow-x: scroll; */
-   
   }
   .scroll {
     height: 368px;
@@ -824,7 +809,6 @@
     background-color: aqua;
   }
 
-  
   .photo-2 {
     height: 368px;
     width: 689px;
@@ -854,14 +838,13 @@
     flex-direction: column;
     width: 286px;
     height: 194px;
-
   }
   .video-1 {
     width: 286px;
     height: 161px;
     gap: 10px;
     background-image: url();
-    background-color: #6529CF;
+    background-color: #6529cf;
   }
 
   .play {
@@ -879,7 +862,7 @@
     height: 161px;
     gap: 10px;
     background-image: url();
-    background-color: #2A402D;
+    background-color: #2a402d;
   }
   .v-3 {
     display: flex;
@@ -918,15 +901,6 @@
   }
 }
 @media only screen and (min-width: 1120px) {
-  
- 
-  .frame-45 {
-    /* display: flex;
-    gap: 24px;
-    justify-content: space-between; */
-    /* justify-items: center; */
-
-  }
   .home {
     width: 12px;
     height: 12px;
@@ -953,7 +927,7 @@
     border: none;
     cursor: pointer;
   }
- 
+
   .button--search {
     visibility: hidden;
     width: 48px;
@@ -997,94 +971,90 @@
     gap: 20px;
     justify-content: center;
     align-items: center;
-    }
-    .P-2 {
-      font-size: 52px;  
-    }
-    .p-3 {
-      font-size: 24px;
-      align-self: center;
-    }
-    .button--learn {
-      width: 123px;
-      height: 44px;
-      border-radius: 20px;
-      background-color: #2997ff;
-      border: 1px solid #2997ff;
-      color: white;
-      cursor: pointer;
-    }
-    .button--buy {
-      width: 68px;
-      height: 44px;
-      border-radius: 20px;
-      border: 1px solid #2997ff;
-      background: none;
-      color: #2997ff;
-      cursor: pointer;
-    }
-    .background_2 {
-      display: flex;
-      width: 100%;
-      height: 692px;
-      border: 1px solid green;
-      background-image: url(./images/image.phone2.png);
-      gap: 12px;
-    }
-    .background_3 {
-      display: flex;
-      width: 100%;
-      height: 692px;
-      border: 1px solid green;
-      background-image: url(./images/Figure-3-3.png);
-      background-size: contain;
-      background-color: #F5F5F7;
-      background-repeat: no-repeat;
-      gap: 12px;
-      justify-content: center;
-      align-items: center;
-
-      
-    }
-    .frame-27 {
-      display:none;
-      width: 5px;
-      margin-left: 10px;
-    }
-    .frame-22 {
-      visibility: visible;
-      border: collapse;
-      display: flex;
-      flex-direction: column;
-      width: 405px;
-      height: 164px;
-      margin-top: 400px;
-      gap: 20px;
-      justify-content: center;
-      align-items: center;
-
-    }
-    .p-25 {
-      align-self: center;
-      font-size: 52px;
-    }
-    .p-26 {
-      font-size: 24px;
-      text-align: center;
-    }
-    .button--gifts {
-      display: flex;
-      width: 117px;
-      height: 36px;
-      border-radius: 20px;
-      background-color: #2997ff;
-      border: 1px solid #2997ff;
-      color: white;
-      cursor: pointer;
-      justify-content: center;
-
-    }
-    /* .frame-25 {
+  }
+  .P-2 {
+    font-size: 52px;
+  }
+  .p-3 {
+    font-size: 24px;
+    align-self: center;
+  }
+  .button--learn {
+    width: 123px;
+    height: 44px;
+    border-radius: 20px;
+    background-color: #2997ff;
+    border: 1px solid #2997ff;
+    color: white;
+    cursor: pointer;
+  }
+  .button--buy {
+    width: 68px;
+    height: 44px;
+    border-radius: 20px;
+    border: 1px solid #2997ff;
+    background: none;
+    color: #2997ff;
+    cursor: pointer;
+  }
+  .background_2 {
+    display: flex;
+    width: 100%;
+    height: 692px;
+    border: 1px solid green;
+    background-image: url(./images/image.phone2.png);
+    gap: 12px;
+  }
+  .background_3 {
+    display: flex;
+    width: 100%;
+    height: 692px;
+    border: 1px solid green;
+    background-image: url(./images/Figure-3-3.png);
+    background-size: contain;
+    background-color: #f5f5f7;
+    background-repeat: no-repeat;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+  }
+  .frame-27 {
+    display: none;
+    width: 5px;
+    margin-left: 10px;
+  }
+  .frame-22 {
+    visibility: visible;
+    border: collapse;
+    display: flex;
+    flex-direction: column;
+    width: 405px;
+    height: 164px;
+    margin-top: 400px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .p-25 {
+    align-self: center;
+    font-size: 52px;
+  }
+  .p-26 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .button--gifts {
+    display: flex;
+    width: 117px;
+    height: 36px;
+    border-radius: 20px;
+    background-color: #2997ff;
+    border: 1px solid #2997ff;
+    color: white;
+    cursor: pointer;
+    justify-content: center;
+  }
+  /* .frame-25 {
       display: flex;
       flex-direction: column;
       width: 314px;
@@ -1093,41 +1063,45 @@
       margin-left: 30px;
       gap: 12px;
       /* justify-content: center;  */
-      /* align-items: center; */
-    /* } */
-    
-    .p-6 {
-      opacity: 0;
-      margin-top: 270px;
-      font-family: sans-serif;
-      background-image: linear-gradient(43deg, #4158d0, #c850c0 46%, #ffcc70 100%);
-      background-clip: text;
-      color: transparent;
-    }
-    .p-14 {
-      font-size: 30px;
-      text-align: center;
-    }
-    .p-15 {
-      font-size: 18px;
-      text-align: center;
-    }
-   .background_4 {
+  /* align-items: center; */
+  /* } */
+
+  .p-6 {
+    opacity: 0;
+    margin-top: 270px;
+    font-family: sans-serif;
+    background-image: linear-gradient(
+      43deg,
+      #4158d0,
+      #c850c0 46%,
+      #ffcc70 100%
+    );
+    background-clip: text;
+    color: transparent;
+  }
+  .p-14 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .p-15 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .background_4 {
     display: flex;
     height: 580px;
     width: 48%;
-    background-image:url(./images/image.pad2.png) ;
+    background-image: url(./images/image.pad2.png);
     justify-content: center;
     align-items: center;
-
-   }
-   .frame-27-1 {
+  }
+  .frame-27-1 {
     display: none;
-   }
-   .frame-28 {
+  }
+  .frame-28 {
     display: flex;
     flex-direction: column;
-    height: 162px; 
+    height: 162px;
     gap: 16px;
     justify-content: center;
     align-items: center;
@@ -1136,15 +1110,19 @@
     display: flex;
     margin-top: 40px;
     justify-content: center;
-    
   }
-  
+
   .p-30 {
     display: flex;
     margin-top: 300px;
     font-size: 24px;
     font-family: sans-serif;
-    background-image: linear-gradient(43deg, #4158d0, #c850c0 46%, #ffcc70 100%);
+    background-image: linear-gradient(
+      43deg,
+      #4158d0,
+      #c850c0 46%,
+      #ffcc70 100%
+    );
     background-clip: text;
     color: transparent;
   }
@@ -1152,19 +1130,18 @@
     display: flex;
     height: 580px;
     width: 48%;
-    background-image:url(./images/airpods.pro2.png) ;
-    background-size: cover ;
+    background-image: url(./images/airpods.pro2.png);
+    background-size: cover;
     justify-content: center;
     align-items: center;
-
   }
-   .frame-6 {
+  .frame-6 {
     display: none;
-   }
+  }
   .frame-29 {
     display: flex;
     flex-direction: column;
-    height: 162px; 
+    height: 162px;
     gap: 16px;
     justify-content: center;
     align-items: center;
@@ -1173,7 +1150,7 @@
   .p-31 {
     font-size: 36px;
     color: white;
-  }  
+  }
   .p-32 {
     font-size: 18px;
     color: white;
@@ -1182,8 +1159,8 @@
     display: flex;
     height: 580px;
     width: 48%;
-    background-image:url(./images/watch.4.png) ;
-    background-size: cover ;
+    background-image: url(./images/watch.4.png);
+    background-size: cover;
     justify-content: center;
     align-items: center;
   }
@@ -1193,7 +1170,7 @@
   .frame-30 {
     display: flex;
     flex-direction: column;
-    height: 162px; 
+    height: 162px;
     gap: 10px;
     justify-content: center;
     align-items: center;
@@ -1214,8 +1191,8 @@
     display: flex;
     height: 580px;
     width: 48%;
-    background-image:url(./images/air.4.png) ;
-    background-size: cover ;
+    background-image: url(./images/air.4.png);
+    background-size: cover;
     justify-content: center;
     align-items: center;
   }
@@ -1225,7 +1202,7 @@
   .frame-31 {
     display: flex;
     flex-direction: column;
-    height: 162px; 
+    height: 162px;
     gap: 10px;
     justify-content: center;
     align-items: center;
@@ -1241,8 +1218,8 @@
     display: flex;
     height: 580px;
     width: 48%;
-    background-image:url(./images/trade.in4.png) ;
-    background-size: cover ;
+    background-image: url(./images/trade.in4.png);
+    background-size: cover;
     justify-content: center;
     align-items: center;
   }
@@ -1252,7 +1229,7 @@
   .frame-32 {
     display: flex;
     flex-direction: column;
-    height: 162px; 
+    height: 162px;
     width: 322px;
     gap: 10px;
     justify-content: center;
@@ -1271,8 +1248,8 @@
     display: flex;
     height: 580px;
     width: 48%;
-    background-image:url(./images/card.3.png) ;
-    background-size: cover ;
+    background-image: url(./images/card.3.png);
+    background-size: cover;
     justify-content: center;
     align-items: center;
   }
@@ -1282,7 +1259,7 @@
   .frame-33 {
     display: flex;
     flex-direction: column;
-    height: 162px; 
+    height: 162px;
     width: 340px;
     gap: 10px;
     justify-content: center;
@@ -1291,7 +1268,6 @@
   }
   .p-40 {
     font-size: 36px;
-   
   }
   .p-41 {
     font-size: 18px;
@@ -1300,6 +1276,97 @@
   .link-11 {
     gap: 10px;
   }
-   }   
-  
-  
+
+  .background_10 {
+    width: 100%;
+    height: 668px;
+    border: 1px solid green;
+    margin-top: 12px;
+    background-image: url();
+    justify-items: flex-start;
+    /* overflow-x: scroll; */
+  }
+  .scroll {
+    /* height: px;
+    border: 1px solid green; */
+  }
+
+  .frame-45 {
+    display: flex;
+    gap: 12px;
+    height: 368px;
+  }
+  .photo-1-1 {
+    height: 368px;
+    width: 689px;
+    background-image: url(./images/Link.tab.png);
+    background-color: aqua;
+  }
+
+  .photo-2 {
+    height: 368px;
+    width: 689px;
+    background-image: url(./images/link.tab.2.png);
+    background-color: aqua;
+  }
+  .photo-3 {
+    height: 368px;
+    width: 689px;
+    background-image: url();
+    background-color: aqua;
+  }
+  .background_11 {
+    display: flex;
+    width: 100%;
+    height: 668px;
+    margin-top: 12px;
+    background-image: url();
+    gap: 10px;
+  }
+  .frame-video {
+    height: px;
+    background-color: #f5f5f7;
+  }
+  .v-1 {
+    display: flex;
+    flex-direction: column;
+    width: 286px;
+    height: 194px;
+  }
+  .video-1 {
+    width: 286px;
+    height: 161px;
+    gap: 10px;
+    background-image: url();
+    background-color: #6529cf;
+  }
+
+  .play {
+    flex-direction: column;
+    justify-items: right;
+  }
+  .v-2 {
+    display: flex;
+    flex-direction: column;
+    width: 286px;
+    height: 194px;
+  }
+  .video-2 {
+    width: 286px;
+    height: 161px;
+    gap: 10px;
+    background-image: url();
+    background-color: #2a402d;
+  }
+  .v-3 {
+    display: flex;
+    flex-direction: column;
+    width: 286px;
+    height: 194px;
+  }
+  .video-3 {
+    width: 286px;
+    height: 161px;
+    background-color: #040303;
+  }
+}
