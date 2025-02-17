@@ -499,14 +499,6 @@
   height: 495px;
   width: 274px;
 }
-.photo-4 {
-  background-image: url(./Link11.png);
-  background-color: #ffcc70;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 495px;
-  width: 274px;
-}
 
 .container-tab {
   display: flex;
@@ -587,7 +579,7 @@
 }
 .video-1 {
   opacity: 80%;
-  height: 134px;
+  height: 160px;
   background-image: url(./images/video1.png);
   background-repeat: no-repeat;
   background-color: #6529cf;
@@ -607,7 +599,7 @@
   flex-direction: column;
   width: 238px;
   height: 160px;
-  border: 1px solid green;
+  
 }
 .video-2 {
   opacity: 80%;
@@ -841,7 +833,7 @@
   }
   .video-1 {
     width: 286px;
-    height: 161px;
+    height: 194px;
     gap: 10px;
     background-image: url();
     background-color: #6529cf;
@@ -1280,67 +1272,105 @@
   .background_10 {
     width: 100%;
     height: 668px;
-    border: 1px solid green;
     margin-top: 12px;
     background-image: url();
     justify-items: flex-start;
     /* overflow-x: scroll; */
   }
   .scroll {
-    /* height: px;
-    border: 1px solid green; */
-  }
-
-  .frame-45 {
     display: flex;
-    gap: 12px;
-    height: 368px;
+    justify-items: flex-start;
+    background-size: contain;
+    display: flex;
+    gap: 10px;
+    animation-name: move;
+    animation-duration: 5s linear;
   }
-  .photo-1-1 {
-    height: 368px;
-    width: 689px;
-    background-image: url(./images/Link.tab.png);
-    background-color: aqua;
+  
+  @keyframes move {
+    from {
+      transform: translateX(-2500px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  } 
+  
+   .scroll {
+    animation-name: move;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-direction: both;
   }
-
+  .frame-44 {
+    display: flex;
+    gap: 10px;
+    height: 668px;
+    border: 1px solid green;
+  } 
+  
+  .photo-1 {
+    background-image: url(./images/b-1.jpg);
+    background-color: #ffcc70;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: flex-end;
+    height: 668px;
+    width: 1250px;
+  } 
   .photo-2 {
-    height: 368px;
-    width: 689px;
-    background-image: url(./images/link.tab.2.png);
-    background-color: aqua;
-  }
+    background-image: url(./images/b-3.jpg);
+    background-color: #ffcc70;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: flex-end;
+    height: 668px;
+    width: 1250px;
+  } 
   .photo-3 {
-    height: 368px;
-    width: 689px;
-    background-image: url();
-    background-color: aqua;
-  }
+    background-image: url(./images/b-4.jpg);
+    background-color: #ffcc70;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: flex-end;
+    height: 668px;
+    width: 1250px;
+  } 
+  
   .background_11 {
     display: flex;
     width: 100%;
-    height: 668px;
+    height: 292px;
     margin-top: 12px;
     background-image: url();
     gap: 10px;
+    overflow-y: hidden;
   }
   .frame-video {
-    height: px;
+    height: 292px;
     background-color: #f5f5f7;
+    gap: 10px;
   }
   .v-1 {
     display: flex;
     flex-direction: column;
-    width: 286px;
-    height: 194px;
+    width: 417px;
+    height: 236px;
+    background-image: url(./images/c-2.jpg);
+    background-repeat: no-repeat;
   }
   .video-1 {
-    width: 286px;
-    height: 161px;
+    width: 417px;
+    height: 236px;
     gap: 10px;
     background-image: url();
     background-color: #6529cf;
   }
-
+  .video-1 {
+    display: none;
+  }
   .play {
     flex-direction: column;
     justify-items: right;
@@ -1348,25 +1378,42 @@
   .v-2 {
     display: flex;
     flex-direction: column;
-    width: 286px;
-    height: 194px;
+    width: 417px;
+    height: 236px;
+    background-image: url(./images/c-3.jpg);
+  } 
+  .video-2 {
+    display: none;
   }
   .video-2 {
-    width: 286px;
-    height: 161px;
+    width: 417px;
+    height: 236px;
     gap: 10px;
     background-image: url();
-    background-color: #2a402d;
+    /* background-color: #2a402d; */
   }
   .v-3 {
     display: flex;
     flex-direction: column;
-    width: 286px;
-    height: 194px;
+    width: 417px;
+    height: 236px;
+    background-image: url(./images/c-4.jpg);
   }
   .video-3 {
-    width: 286px;
-    height: 161px;
-    background-color: #040303;
+    display: none;
   }
+  .video-3 {
+    width: 417px;
+    height: 236px;
+    /* background-color: #040303; */
+    /* background-image: url(./images/c-4.jpg); */
+  }
+  .v-4 {
+    display: flex;
+    flex-direction: column;
+    width: 417px;
+    height: 236px;
+    background-image: url(./images/c-5.jpg);
+  }
+
 }
